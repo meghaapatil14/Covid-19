@@ -19,7 +19,7 @@ public class TestBase extends TestUtil {
 		try {
 		props=new Properties();
 		
-			FileInputStream ip=new FileInputStream("C:\\Users\\nmegh\\eclipse-workspace\\FirstMavenProject\\src\\main\\java\\Com\\Kite\\qa\\config\\config.properties");
+			FileInputStream ip=new FileInputStream("C:\\Users\\nmegh\\eclipse-workspace\\Covid-19\\src\\main\\java\\Com\\Google\\qa\\config\\config.properties");
 		    props.load(ip);
 		} catch (FileNotFoundException e) {
 			
